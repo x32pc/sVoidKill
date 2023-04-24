@@ -1,0 +1,9 @@
+name: sVoidKill
+version: 1.2
+main: com.x32pc.github.Main
+description: Eliminating players who fall in void
+author: x32pc
+commands:
+  svoidkill:
+    description: Main command
+    usage: /svoidkill /svoidkill reload

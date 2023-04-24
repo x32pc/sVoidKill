@@ -1,0 +1,20 @@
+void_death:
+  enabled: true #If true, players will die after falling below Y level which can be configured in next row
+  Y_level: -3 #Y level when player will die
+
+
+
+custom_message:
+  enabled: true #If true, death message will be shown in chat
+  player_death_message: "&f%player% fell out of the world" #Use %player% to get player nickname, you can use & for colors (&4,&l,...)
+
+
+#Message when player types /svoidkill
+info_message:
+  - "&8----------------------------------------"
+  - "&eAvaible commands:"
+  - ""
+  - "&8&f/svoidkill &7Shows this message"
+  - "&8&f/svoidkill reload &7Reloads config"
+  - ""
+  - "&8----------------------------------------"
